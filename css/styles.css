@@ -116,6 +116,7 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -125,7 +126,6 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  padding-top: 188px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -145,12 +145,20 @@ img {
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  margin: auto 0;
+  min-width: 169px;
+  display: block;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
+}
+
+.advantages {
+  padding: 120px 0;
+}
+.advantages-section-title {
+  visibility: hidden;
 }
 
 .advantages-list {
@@ -160,7 +168,6 @@ img {
 
 .advantages-item {
   width: calc((100% - 72px) / 4);
-  padding: 120px 0;
 }
 
 .advantages-title {
@@ -284,6 +291,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-color {
